@@ -1,0 +1,5 @@
+host: ec2-54-172-39-148.compute-1.amazonaws.com
+
+data- -> Username: ec2-user
+
+ssh -> auth -> add osdemo.ppk
