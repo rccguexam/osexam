@@ -1,0 +1,7 @@
+# using for loop
+echo "1 to 10 product list"
+for i in 1 2 3 4 5 6 7 8 9 10
+do
+  echo -n "$i " 
+done
+echo ""
