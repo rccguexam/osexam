@@ -1,0 +1,5 @@
+echo "Enter the radious of the circle"
+read r
+pi=3.14
+area=$( echo "scale=2;$pi * $r * $r" | bc )
+echo "area of the circle is " $area
