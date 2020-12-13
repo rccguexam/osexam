@@ -1,0 +1,16 @@
+Question-1
+#!/bin/bash
+#Create a shell script to calculate the area of a circle with radius=4
+#function for calculating the area of circle
+echo "Enter the radius value"
+read rad
+cal1 rad
+$ret1='echo"3.14*rad*rad"|bc`
+echo "The area of a circle is $ret1"
+
+Question-2
+#!/bin/bash
+#The script displays a list of all files in the current directory to which you have read. write and execute permissions
+echo "Enter the directory name"
+read dir
+ls -l | awk '$dir ~ /rwx/'
